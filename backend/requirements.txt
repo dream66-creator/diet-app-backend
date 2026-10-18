@@ -1,0 +1,13 @@
+# Final version. Keep comments ASCII-only: old pip versions on Windows
+# decode this file with the system locale (GBK) and crash on UTF-8 comments.
+Flask>=2.3
+Flask-SQLAlchemy>=3.1
+Flask-Cors>=4.0
+SQLAlchemy>=2.0
+pydantic>=2.5
+openai>=1.30
+requests>=2.31
+Pillow>=10.0
+python-dotenv>=1.0
+# Uncomment for MySQL in production:
+# PyMySQL>=1.1
